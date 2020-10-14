@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  text-align: center;
+  font-family: "Annie Use Your Telescope", cursive, sans-serif;
+  margin: 0;
+}
+
+/******************* Header ********************/
+header {
+  background-color: #40c0cb;
+  color: white;
+}
+
+header h1 {
+  font-family: "Arizonia", cursive, sans-serif;
+  margin: 0;
+}
+
+#name a {
+  text-decoration: none;
+  color: white;
+}
+
+.header-nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+.header-nav a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  font-size: 22px;
+  border-radius: 20px;
+  transition: all 0.4s ease-in;
+}
+
+.header-nav a:hover {
+  background-color: white;
+  color: #40c0cb;
+}
+
+.header-info {
+  padding: 20px 0;
+}
+
+.header-info h2 {
+  margin: 0;
+}
+
+.avatar {
+  width: 30%;
+  border-radius: 50%;
+}
+
+/******************** About ******************/
+
+.welcome {
+  font-size: 100px;
+  margin: 0;
+}
+
+.info {
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.treehouse {
+  text-decoration: none;
+  color: green;
+}
+
+.skills h2 {
+  margin: 10px 0;
+  padding-bottom: 20px;
+}
+
+.skills-img {
+  width: 10%;
+}
+
+/******************** Portfolio ******************/
+
+.title {
+  font-size: 70px;
+}
+
+.img-content {
+  width: 30%;
+}
+
+.button-port a {
+  text-decoration: none;
+  color: white;
+}
+
+.button-port {
+  margin-top: 5px;
+  border: none;
+  background: #1f77b4;
+  color: #ffffff !important;
+  font-weight: 100;
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+}
+
+.button-port:hover {
+  color: white !important;
+  font-weight: 700 !important;
+  letter-spacing: 3px;
+  background: #5b73b6;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.3s ease 0s;
+}
+
+/******************** Contact ******************/
+
+.contact-img {
+  width: 10%;
+}
+
+.contact-info {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+/******************* Footer ********************/
+footer {
+  margin-top: 10px;
+}
